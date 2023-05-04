@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resumo javascript</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    Digite seu nome:
+    <input type="text" id="nome">
+    <button onclick="Confirmar();"> <img src="ok.png" width="30px">
+    <br> Pronto fi</button>
+    <button onclick="MostrarJanela();"> 
+    <img src="+.png" width="30px">
+    <br>
+    Cadastrar
+    </button>
+    <button onclick="Somar();">
+     <img src="add.png" width="30px">
+    <br>
+    Soma ai
+    </button>
+    <br>
+    Resultado: <input type="text" id="resultado">
+    <br><br>
+    <div id="resposta">
+        Você digitou: <span id="teste"> </span>
+    </div>
+
+    <div class="janelinha" id="janelinha">
+        Este texto está dentro da div janelinha.
+        <br>
+        <img onclick="Fechar();" src="x.png" width="30px">
+    </div>
+     
+    <button class="BT" onclick="Imprimir();">
+        <img src="impressora.png" width="50px">
+        <br>
+        Imprime aí
+    </button>
+    
+</body>
+<script src="script.js"> </script>
+</html>
